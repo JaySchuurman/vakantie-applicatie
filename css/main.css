@@ -1,0 +1,713 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.scherm-homepage{
+    height: 1200px;
+    width: auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: auto;
+    background-color: #FFE500;
+    font-family: "Oswald";
+    font-size: 40px;  
+    gap: 50px;
+}
+
+img {
+    height: 120px;
+    width: auto;
+}
+.blue-text{
+    color: #8DDBFC;
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.jay-text{
+    color: #000000;
+    font-size: 50px;
+
+}
+
+.software-developer{
+    font-family: Oswald;
+    background-color: #FFE500;
+    color:#000000 ;
+    width: 420px;
+    height: 300px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    box-shadow:  0px 2px #000000;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 700px;
+}
+
+.software-developer-text{
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.shadow{
+    margin: 20px;
+}
+.about-me1, .contacts1, .languages01{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #FFE500;
+    width: 300px;
+    height: 150px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    box-shadow:  0px 2px #000000;
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.about-me-text{
+    font-size: 70px; 
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+ }
+
+.contacts-text{
+    font-size: 70px; 
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.languages-text{
+    font-size: 70px; 
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+}
+
+.scherm-about-me{
+    height: 1750px;
+    width: auto;
+}
+
+.scherm-languages{
+    height: 3000px;
+    width: auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: auto;
+    background-color: #FFE500;
+    font-family: "Oswald";
+    gap: 50px;
+}
+
+.blue-text{
+    color: #8DDBFC;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.jay-text{
+    color: #000000;
+    font-size: 30px;
+}
+
+/* .about-me2{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+} */
+
+.about-me3{
+    display: flex;
+    box-shadow:  0px 2px #000000;
+    justify-content: center;
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #FFE500;
+    width: 300px;
+    height: 150px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.About-Me{
+    display: flex;
+    justify-content: center;
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #FFE500;
+    width: 300px;
+    height: 150px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.voorstellen1{
+display: flex;
+justify-content: center;
+}
+
+.voorstellen2{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 900px;
+    height: 400px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.voorstellen-text{
+    font-size: 50px; 
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.interests-experience-blokken{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.interest-blok{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 400px;
+    height: 500px;
+    border: solid 2px#000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.interests-text{
+    font-size: 60px; 
+    font-weight: 700; 
+}
+
+.interests{
+    color: #FFE500;
+    line-height: 80px;
+    font-size: 40px;
+}
+
+.experience-blok{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 850px;
+    height: 500px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.experience-text{
+    font-size: 60px; 
+    font-weight: 700; 
+}
+
+.experience{
+    color: #FFE500;
+    line-height: 80px;
+    font-size: 40px; 
+}
+
+.lijn{
+    height: 100px;
+    width: auto;
+    background-color: #FFE500;
+    border: solid 20px #0000;
+    margin-top: 60px;
+    box-shadow:  0px 2px #000000;
+}
+
+.blok-business-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.business-card{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 850px;
+    height: 550px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    box-shadow:  0px 2px #000000;
+
+}
+
+.business-text{
+    margin-top: 30px;
+    font-size: 60px; 
+    font-weight: 700;
+    color: #FFE500;
+}
+
+.business{
+    color: #000000; 
+    line-height: 80px;
+    font-size: 40px;
+}
+
+.email{
+    color: #ffa500;
+}
+
+.fax{
+    color: #ffe4c4;
+}
+
+.telephone{
+    color: #008000;
+}
+.blok-socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.socials1{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 900px;
+    height: 550px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.socials-text{
+    margin-top: 30px;
+    font-size: 60px; 
+    font-weight: 700;
+    color: #FFE500;
+}
+
+.socials2{
+    color: #000000;
+    line-height: 80px;
+    font-size: 40px;
+}
+
+.instagram{
+    color: #A52DCF;
+}
+
+.tikTok{
+    color: #ff0000;
+}
+
+.linkedIn{
+    color: #00008b;
+}
+
+.languages3{
+    display: flex;
+    margin-top: 50px;
+}
+
+.Languages{ 
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+}
+
+.languages-text2{
+    box-shadow:  0px 2px #000000;
+    justify-content: center;
+    font-family: Oswald;
+    font-size: 50px;
+    background-color: #8DDBFC;
+    color: #FFE500;
+    width: 725px;
+    height: 450px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.languages1{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+/* .languages2{
+    display: flex;
+    box-shadow:  0px 2px #000000;
+    justify-content: center;
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #FFE500;
+    width: 300px;
+    height: 150px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    margin-right:250px;
+}  */
+
+.languages-text1{
+    background-color: #8DDBFC;
+    font-size: 70px; 
+    font-weight: 400;
+    font-family: Oswald;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+    margin-right: 270px;
+    border: solid 20px #000000;
+    border: 20px;
+ }
+
+ .languages3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* .languages4{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 850px;
+    height: 500px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    box-shadow:  0px 2px #000000;
+} */
+
+.primairy-color{
+    color: #FFE500;
+}
+
+.secondairy-color{
+    color: #000000;
+}
+
+.programming-languages1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.programming-languages2{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 850px;
+    height: 450px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    box-shadow:  0px 2px #000000;
+}
+
+.programming-languages3{
+    font-size: 70px;
+    color: #FFE500;
+}
+
+.programming-languages-text{
+    font-size: 40px; 
+    font-weight: 700;
+    color: #000000;
+    line-height: 100px;
+}
+
+.link{
+    color: #FFE500;
+}
+
+@media only screen and (max-width: 1400px) {
+/* Start of responsiveness of my HOMEPAGE */
+
+.scherm-homepage{
+        height: 3100px;
+        width: 1400px;
+    }
+    
+.header{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        width: 1400px;
+        background-color: #FFE500;
+        font-family: "Oswald";
+        font-size: 40px;  
+        gap: 50px;
+        
+    }
+.blue-text{
+        color: #8DDBFC;
+        margin-left: 200px;
+        font-size: 70px;
+    }
+    
+.jay-text{
+        color: #000000;
+        font-size: 70px;
+    
+    }
+    
+.software-developer-button{
+    margin-left: 10px;
+    }
+    
+.software-developer{
+        font-family: Oswald;
+        background-color: #FFE500;
+        color:#000000 ;
+        width: 650px;
+        height: 500px;
+        border: solid 2px #000000;
+        border-radius: 20px;
+        box-shadow:  0px 2px #000000;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    
+.software-developer-text{
+        margin-bottom: 50px;
+        font-size: 150px;
+        font-weight: 600;
+    }
+    
+.shadow{
+        margin: 20px;
+    }
+
+.about-me1, .contacts1, .languages01{
+        font-family: Oswald;
+        background-color: #8DDBFC;
+        color: #FFE500;
+        width: 600px;
+        height: 350px;
+        border: solid 2px #000000;
+        border-radius: 20px;
+        box-shadow:  0px 2px #000000;
+        text-align: center;
+        display: flex;
+        margin-bottom: 50px;
+}
+    
+.about-me-text{
+    font-size: 120px; 
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+ }
+
+.contacts-text{
+    font-size: 120px; 
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+    margin-left: 50px
+}
+
+.languages-text{
+    font-size: 120px; 
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFE500;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+/* End of responsiveness HOMEPAGE */
+
+/* Start of responsiveness ABOUT ME */
+.scherm-about-me{
+    height: 2750px;
+    width: 1230px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1230px;
+    background-color: #FFE500;
+    font-family: "Oswald";
+    font-size: 40px;  
+    gap: 50px;
+}
+.blue-text{
+    color: #8DDBFC;
+    margin-left: 200px;
+    font-size: 70px;
+}
+
+.jay-text{
+    color: #000000;
+    font-size: 70px;
+
+}
+
+.lijn{
+    height: 200px;
+    width: auto;
+    background-color: #FFE500;
+    border: solid 20px #0000;
+    margin-top: 60px;
+    box-shadow:  0px 2px #000000;
+}
+
+.about-me2{
+    margin-left:200px;
+}
+
+.about-me-text{
+    font-size: 90px;
+}
+.experience-blok{
+    font-family: Oswald;
+    background-color: #8DDBFC;
+    color: #000000;
+    width: 850px;
+    height: 600px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* End of responsiveness ABOUT ME */
+/* Start of responsiveness CONTACTS */
+.scherm-contacts{
+    height: 2750px;
+    width: 1230px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1230px;
+    background-color: #FFE500;
+    font-family: "Oswald";
+    font-size: 40px;  
+    gap: 50px;
+}
+.BLUE-TEXT{
+    color: #8DDBFC;
+    margin-left: 200px;
+    font-size: 70px;
+}
+
+.JAY-TEXT{
+    color: #000000;
+    font-size: 70px;
+
+}
+
+.LIJN{
+    height: 200px;
+    width: auto;
+    background-color: #FFE500;
+    border: solid 20px #0000;
+    margin-top: 60px;
+    box-shadow:  0px 2px #000000;
+}
+/* End of responsiveness CONTACTS */
+/* Start of responsiveness LANGUAGES */
+.scherm-languages{
+    height: 2750px;
+    width: 1230px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1230px;
+    background-color: #FFE500;
+    font-family: "Oswald";
+    font-size: 40px;  
+    gap: 50px;
+}
+.blue-text{
+    color: #8DDBFC;
+    margin-left: 200px;
+    font-size: 70px;
+}
+
+.jay-text{
+    color: #000000;
+    font-size: 70px;
+
+}
+
+.lijn{
+    height: 200px;
+    width: auto;
+    background-color: #FFE500;
+    border: solid 20px #0000;
+    margin-top: 60px;
+    box-shadow:  0px 2px #000000;
+}
+/* End of responsiveness LANGUAGES */
+}
+
