@@ -24,7 +24,7 @@
 .row1{
     display: flex;
     flex-direction: row;
-    margin-left: 250px;
+    margin-left: 750px;
 }
 .home-button{
     height: 50px;
@@ -46,11 +46,14 @@
 
 .logout-button{
     height: 50px;
-    width: 150px;
+    width: 200px;
     background-color: #ffffff;
     border-radius: 10px;
     margin-left: 150px;
     margin-top: 40px;
+    background-image: url(../img/logout.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
 }
 
 .logout-button-text{
@@ -60,15 +63,19 @@
     font-size: 30px;
     font-weight: 500;
     justify-content: center;
+    margin-left: 30px;
 }
 
 .login-button{
     height: 50px;
-    width: 100px;
+    width: 200px;
     background-color: #ffffff;
     border-radius: 10px;
     margin-left: 150px;
     margin-top: 40px;
+    background-image: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px;
 }
 
 .login-button-text{
@@ -78,6 +85,7 @@
     font-size: 30px;
     font-weight: 500;
     justify-content: center;
+    margin-left:20px;
 }
 
 .register-button{
@@ -96,4 +104,13 @@
     font-size: 30px;
     font-weight: 500;
     justify-content: center;
+}
+
+.info-page{
+    height: 1000px;
+    width: auto;
+    background-image: url(../img/sea.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
 }
