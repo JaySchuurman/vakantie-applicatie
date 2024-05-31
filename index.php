@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
    <link rel="stylesheet" href="css/test.css">
+   <link rel="stylesheet" href="img">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
@@ -34,5 +35,6 @@
         </div>
         </div>
     </div>
+    <div class="info-page"></div>
 </body>
 </html>
