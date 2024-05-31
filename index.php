@@ -21,6 +21,7 @@
             <div class="home-button">
                 <div class="home-button-text">HOME</div>
             </div>
+        <div class="row1">
             <div class="logout-button">
                 <div class="logout-button-text">LOGOUT</div>
             </div>
@@ -30,6 +31,7 @@
             <div class="register-button">
                 <div class="register-button-text">REGISTER HERE</div>
             </div>
+        </div>
         </div>
     </div>
 </body>
