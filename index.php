@@ -20,22 +20,39 @@
         <div class="logo">SKY FLIGHTS</div>
         <div class="header-row">
             <div class="home-button">
-                <div class="home-button-text">HOME</div>
+                <div class="home-button-text"><a>HOME</a></div>
             </div>
         <div class="row1">
             <div class="logout-button">
-                <div class="logout-button-text">LOGOUT</div>
+                <div class="logout-button-text"><a>LOGOUT</a></div>
             </div>
             <div class="login-button">
-                <div class="login-button-text">LOGIN</div>
+                <div class="login-button-text"><a>LOGIN</a></div>
             </div>
             <div class="register-button">
-                <div class="register-button-text">REGISTER HERE</div>
+                <div class="register-button-text"><a>REGISTER HERE</a></div>
             </div>
         </div>
         </div>
     </div>
-    <div class="info-page"></div>
+    <div class="info-page">
+        <div class="row2">
+            <div class="tabel1">
+                <div class="tabel1-header-text">Zoek vakantie</div>
+                <div class="mini-info-text1"><a>Reisgezelschap</a></div>
+                <div class="input-stroke"></div>
+                <div class="mini-info-text2"><a>Alle landen</a></div>
+                <div class="input-stroke"></div>
+                <div class="mini-info-text3"><a>Vertrek datum</a></div>
+                <div class="input-stroke"></div>
+                <div class="mini-info-text4"><a>Vervoerstype</a></div>
+                <div class="input-stroke"></div>
+                    <div class="search-vacations-button">
+                        <div class="search-vacations-button-text"><a>Zoek naar vakanties</a></div>
+                    </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
