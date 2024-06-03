@@ -16,8 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">SKY FLIGHTS</div>
+<div class="header">
+    <div class="logo">SKY FLIGHTS</div>
         <div class="header-row">
             <div class="home-button">
                 <div class="home-button-text"><a>HOME</a></div>
@@ -33,26 +33,42 @@
                 <div class="register-button-text"><a>REGISTER HERE</a></div>
             </div>
         </div>
-        </div>
     </div>
-    <div class="info-page">
-        <div class="row2">
-            <div class="tabel1">
-                <div class="tabel1-header-text">Zoek vakantie</div>
-                <div class="mini-info-text1"><a>Reisgezelschap</a></div>
-                <div class="input-stroke"></div>
-                <div class="mini-info-text2"><a>Alle landen</a></div>
-                <div class="input-stroke"></div>
-                <div class="mini-info-text3"><a>Vertrek datum</a></div>
-                <div class="input-stroke"></div>
-                <div class="mini-info-text4"><a>Vervoerstype</a></div>
-                <div class="input-stroke"></div>
-                    <div class="search-vacations-button">
-                        <div class="search-vacations-button-text"><a>Zoek naar vakanties</a></div>
-                    </div>
+</div>
+
+<div class="info-page">
+    <div class="row2">
+        <div class="tabel1">
+            <div class="tabel1-header-text">Zoek vakantie</div>
+            <div class="mini-info-text1"><a>Reisgezelschap</a></div>
+            <div class="input-stroke"></div>
+            <div class="mini-info-text2"><a>Alle landen</a></div>
+            <div class="input-stroke"></div>
+            <div class="mini-info-text3"><a>Vertrek datum</a></div>
+            <div class="input-stroke"></div>
+            <div class="mini-info-text4"><a>Vervoerstype</a></div>
+            <div class="input-stroke"></div>
+                <div class="search-vacations-button">
+                     <div class="search-vacations-button-text"><a>Zoek naar vakanties</a></div>
+                </div>
             </div>
+
+<div class="column1">
+    <div class="last-minute-deal-text">LAST MINUTE DEAL</div>
+        <div class="tabel2">
+            <div class="mini-info-text5">BESPAAR t/m €300 korting!</div>
         </div>
     </div>
+</div>
+</div>
     
+<div class="footer">
+    <div class="footer-row">
+        <div class="row3">
+            <div class="footer-text1">@SKYFLIGHTS</div>
+        </div>
+        <div class="img1"></div>
+    </div>
+</div>
 </body>
 </html>

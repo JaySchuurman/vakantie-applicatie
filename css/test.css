@@ -111,7 +111,7 @@
 }
 
 .info-page{
-    height: 1500px;
+    height: 1200px;
     width: auto;
     background-image: url(../img/sea.jpg);
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@
 }
 
 .input-stroke{
-    height: 100px;
+    height: 70px;
     width: 550px;
     background-color: #ffffff;
     margin-top: 20px;
@@ -201,4 +201,64 @@
     font-size: 30px;
     font-weight: 500;
     text-align: center;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 50px;
+}
+.last-minute-deal-text{
+    color: #000000;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.tabel2{
+    height: 100px;
+    width: 300px;
+    background-color:#FFBD44 ;
+    border-radius: 20px;
+}
+
+.mini-info-text5{
+    color: #000000;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.footer{
+    height: 200px;
+    width: auto;
+    background-color: #5BB9EE;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.footer-text1{
+    color: #ffffff;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.img1{
+    background-image: url(../img/Facebook.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    background-size: 50px;
 }
