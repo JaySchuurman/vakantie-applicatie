@@ -10,8 +10,10 @@
 }
 
 .logo{
-    font-family: Roboto Slab;
+    font-family: Roboto;
     font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
     color: #ffffff;
     margin-left: 150px;
 }
@@ -38,9 +40,10 @@
 .home-button-text{
     color: #000000;
     text-align: center;
-    font-family: Roboto Slab;
+    font-family: Roboto ;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     justify-content: center;
 }
 
@@ -59,9 +62,10 @@
 .logout-button-text{
     color: #000000;
     text-align: center;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     justify-content: center;
     margin-left: 30px;
 }
@@ -81,9 +85,10 @@
 .login-button-text{
     color: #000000;
     text-align: center;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     justify-content: center;
     margin-left:30px;
 }
@@ -103,9 +108,10 @@
 .register-button-text{
     color: #000000;
     text-align: center;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     justify-content: center;
     margin-left: 30px;
 }
@@ -136,43 +142,48 @@
 .tabel1-header-text{
     color: #000000;
     text-align: center;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .mini-info-text1{
     color: #000000;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 20px;
     margin-top: 20px;
 }
 
 .mini-info-text2{
     color: #000000;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 20px;
     margin-top: 20px;
 }
 
 .mini-info-text3{
     color: #000000;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 20px;
     margin-top: 20px;
 }
 
 .mini-info-text4{
     color: #000000;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -197,9 +208,10 @@
 
 .search-vacations-button-text{
     color: #000000;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -211,9 +223,10 @@
 }
 .last-minute-deal-text{
     color: #000000;
-    font-family: Roboto Slab;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .tabel2{
@@ -225,9 +238,10 @@
 
 .mini-info-text5{
     color: #000000;
-    font-family: Roboto Slab;
+    font-family: Roboto;
     font-size: 20px;
     font-weight: 800;
+    font-style: italic;
     margin-left: 20px;
     margin-top: 40px;
 }
@@ -248,17 +262,53 @@
     flex-direction: row;
     margin-left: 10px;
 }
-.footer-text1{
+.copyright{
+    height: 50px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 70px;
     color: #ffffff;
-    font-family: Roboto Slab;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
+    justify-content: center;
 }
 
-.img1{
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 1000px;
+}
+.socials1{
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
     background-image: url(../img/Facebook.png);
     background-repeat: no-repeat;
     background-position: 0;
     background-size: cover;
-    background-size: 50px;
+}
+
+.socials2{
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+    background-image: url(../img/Instagram.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.socials3{
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-image: url(../img/Youtube.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
 }

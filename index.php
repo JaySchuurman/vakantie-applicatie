@@ -65,9 +65,13 @@
 <div class="footer">
     <div class="footer-row">
         <div class="row3">
-            <div class="footer-text1">@SKYFLIGHTS</div>
+            <div class="copyright">© 2024 SKYFLIGHTS</div>
+            <div class="social-icons">
+            <div class="socials1"></div>
+            <div class="socials2"></div>
+            <div class="socials3"></div>
+            </div>
         </div>
-        <div class="img1"></div>
     </div>
 </div>
 </body>
