@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
    <link rel="stylesheet" href="css/test.css">
+   <link rel="stylesheet" href="login.php">
+   <link rel="stylesheet" href="register.php">
    <link rel="stylesheet" href="img">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,10 +29,13 @@
                 <div class="logout-button-text"><a>LOGOUT</a></div>
             </div>
             <div class="login-button">
-                <div class="login-button-text"><a>LOGIN</a></div>
+                <div class="login-button-text">
+                <a href="pages/login.php">LOGIN
+                </div>
             </div>
             <div class="register-button">
-                <div class="register-button-text"><a>REGISTER HERE</a></div>
+                <div class="register-button-text">
+                    <a href="pages/register.php">REGISTER HERE</a></div>
             </div>
         </div>
     </div>
