@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.header{
+    height: 200px;
+    width: auto;
+    background-color: #5BB9EE;
+}
+
+.logo{
+    font-family: Roboto Slab;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 150px;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+.home-button{
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.home-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.logout-button{
+    height: 50px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.logout-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.login-button{
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.login-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.register-button{
+    height: 50px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.register-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
