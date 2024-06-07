@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-/* START INDEX.PHP */
+/* START index.php */
+/* START header */
 .header{
     height: 200px;
     width: auto;
@@ -123,6 +124,7 @@ a{
     margin-left: 30px;
 }
 
+/* END header */
 .info-page{
     height: 1200px;
     width: auto;
@@ -320,8 +322,8 @@ a{
     background-size: cover;
 }
 
-/* END INDEX.PHP */
-/* START LOGIN.PHP */
+/* END index.php */
+/* START login.php *//* START OF register.php */
 
 .loggin_block2{
     height: 1000px;
@@ -430,4 +432,137 @@ input{
 
 .input_register{
     margin-top: 50px;
+}
+
+/* START OF logout.php */
+
+.log-out-page{
+    height: 1200px;
+    width: auto;
+    background-image: url(../img/sea.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.log-out-buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    padding-top: 100px;
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+    background-color: #FFBD44;
+    gap:30px;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.log-out-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.row4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    padding-top: 100px;
+}
+
+.row5{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.yes-button{
+    height: 100px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.yes-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.no-button{
+    height: 100px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.no-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+/* END OF logout.php */
+/* START OF logout_succesfull.php */
+
+.log-out-succesfull-page{
+    height: 800px;
+    width: auto;
+    background-image: url(../img/sea.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.row6{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    padding-top: 100px;
+}
+
+.row7{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.log-out-succesfull-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    line-height: 150px;
+    height: 500px;
+    width: 1400px;
+    border-radius: 20px;
+    background-color: #FFBD44;
+    gap:30px;
+}
+
+.log-out-succesfull-text{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
 }

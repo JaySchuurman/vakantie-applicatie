@@ -7,6 +7,7 @@
    <link rel="stylesheet" href="css/test.css">
    <link rel="stylesheet" href="login.php">
    <link rel="stylesheet" href="register.php">
+   <link rel="stylesheet" href="logout.php">
    <link rel="stylesheet" href="img">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,8 @@
             </div>
         <div class="row1">
             <div class="logout-button">
-                <div class="logout-button-text"><a>LOGOUT</a></div>
+                <div class="logout-button-text">
+                    <a href="pages/logout.php">LOGOUT</a></div>
             </div>
             <div class="login-button">
                 <div class="login-button-text">
