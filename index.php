@@ -46,18 +46,41 @@
 <div class="info-page">
     <div class="row2">
         <div class="tabel1">
-            <div class="tabel1-header-text">Zoek vakantie</div>
-            <div class="mini-info-text1"><a>Reisgezelschap</a></div>
-            <div class="input-stroke"></div>
-            <div class="mini-info-text2"><a>Alle landen</a></div>
-            <div class="input-stroke"></div>
-            <div class="mini-info-text3"><a>Vertrek datum</a></div>
-            <div class="input-stroke"></div>
-            <div class="mini-info-text4"><a>Vervoerstype</a></div>
-            <div class="input-stroke"></div>
-                <div class="search-vacations-button">
-                     <div class="search-vacations-button-text"><a>Zoek naar vakanties</a></div>
-                </div>
+        <form action='vakantie.php'  name='vakantie_logic' method="POST">
+            <div class="label_reisgezelschap">
+                <label>Reisgezelschap: </label>
+            </div>
+            <div class="input_reisgezelschap">
+                <input type="number" name="reisgezelschap" placeholder="Aantal personen" required>
+            </div>
+            <div class="label_bestemming">
+                <label>Bestemming: </label>
+            </div>
+            <div class="input_bestemming">
+            <input type="text" name="bestemming" placeholder="Kies een land" required>
+            </div>
+            <div class="label_datum">
+            <label>Vertrek datum: </label>
+            </div>
+            <div class="input_vertrekdatum">
+            <input type="date" name="datum" placeholder="Kies een datum" required>
+            </div>
+            <div class="label_terugreis-datum">
+            <label>Terugreis datum: </label>
+            </div>
+            <div class="input_datum">
+            <input type="date" name="datum" placeholder="Kies een datum" required>
+            </div>
+            <div class="label_vervoerstype">
+            <label>Vervoerstype: </label>
+            </div>
+            <div class="input_vervoerstype">
+            <input type="text" name="vervoerstype" placeholder="Kies een vervoerstype" required>
+            </div>
+            <div class="input_login">
+            <input type="submit" value="Zoek een vakantie">
+            </div>
+        </form>
             </div>
 
 <div class="column1">
