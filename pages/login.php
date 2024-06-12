@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>LOGIN</title>
    <link rel="stylesheet" href="../css/test.css">
    
    <link rel="stylesheet" href="img">
@@ -49,7 +49,7 @@
             <input type="email" name="email" placeholder="email" required>
             </div>
             <div class="input_login">
-            <input type="submit" value="register">
+            <input type="submit" value="LOGIN">
             </div>
         </form>
     </div>

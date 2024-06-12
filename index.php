@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
    <link rel="stylesheet" href="css/test.css">
+   <link rel="stylesheet" href="index.php">
    <link rel="stylesheet" href="login.php">
    <link rel="stylesheet" href="register.php">
    <link rel="stylesheet" href="logout.php">
@@ -23,7 +24,7 @@
     <div class="logo">SKY FLIGHTS</div>
         <div class="header-row">
             <div class="home-button">
-                <div class="home-button-text"><a>HOME</a></div>
+                <div class="home-button-text"><a href="index.php">HOME</a></div>
             </div>
         <div class="row1">
             <div class="logout-button">
