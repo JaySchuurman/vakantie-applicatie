@@ -1,8 +1,8 @@
 <?php
 
-$sql = "SELECT users.email, users_data.voornaam, users_data.achternaam
+$sql = "SELECT * from users_data
 FROM users
-INNER JOIN users_data ON users.id=users_data.users_id;";
+INNER JOIN users_data ON users.id=users_data.users_id"
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll();

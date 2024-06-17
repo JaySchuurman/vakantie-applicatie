@@ -1,7 +1,7 @@
 <?php
 
 if($_POST['leeftijd'] < 18 ){
-header("location: ../home.php");
+header("location: ../pages/home.php");
 }
 
 else{

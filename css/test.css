@@ -578,3 +578,12 @@ input{
     margin-bottom: 15px;
     margin-top: 15px;
 }
+/* start of vakantie.php */
+
+.vakantie-text{
+font-family: Roboto;
+font-style: italic;
+font-size: 100px;
+font-weight: 900;
+text-align: center;
+}

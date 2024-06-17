@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="login.php">
    <link rel="stylesheet" href="register.php">
    <link rel="stylesheet" href="logout.php">
+   <link rel="stylesheet" href="vakantie.php">
    <link rel="stylesheet" href="img">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +48,7 @@
 <div class="info-page">
     <div class="row2">
         <div class="tabel1">
-        <form action='vakantie.php'  name='vakantie_logic' method="POST">
+        <form action='pages/vakantie.php'  name='vakantie_logic' method="POST">
             <div class="label_reisgezelschap">
                 <label>Reisgezelschap: </label>
             </div>
