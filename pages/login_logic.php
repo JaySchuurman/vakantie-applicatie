@@ -13,6 +13,7 @@ if ($username == "admin" && $email == "admin" && $password == "admin") {
     $_SESSION["user"] = $username;
     header("Location: dashboard.php");
  } else {
-    header("Location: login.php");
+    header("Location: login_succesfull.php");
  }
 ?>
+

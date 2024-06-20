@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOG OUT</title>
-    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="css/test.css">
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="logout_succesfull.php">
     <link rel="stylesheet" href="img">
