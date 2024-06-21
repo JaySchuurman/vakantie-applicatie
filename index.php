@@ -48,7 +48,7 @@
 <div class="info-page">
     <div class="row2">
         <div class="tabel1">
-        <form action='vakantie.php'  name='vakantie_logic' method="POST">
+        <form action='pages/vakantie.php'  name='vakantie_logic' method="POST">
             <div class="label_reisgezelschap">
                 <label>Reisgezelschap: </label>
             </div>
@@ -91,9 +91,17 @@
             <div class="mini-info-text5">BESPAAR t/m €300 korting!</div>
         </div>
     </div>
+<div class="column2">
+    <div class="tabel3">
+        <div class="prototype-text">
+        <a>We are sorry to inform you that our website isn't entirely finished.</a>
+        <a>Because of this you can only plan vacations to Spain and France.</a>
+        </div>
+    </div>
 </div>
 </div>
-    
+</div>
+
 <div class="footer">
     <div class="footer-row">
         <div class="row3">
