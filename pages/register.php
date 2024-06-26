@@ -53,6 +53,18 @@
         </form>
     </div>
 </div>   
+
+<div class="register-form">
+                        <form class="form-extra" action='register_logic.php' name='register_logic' method="post">
+                        <label class="coloring"> Username: </label>  
+                        <input class="username-log" type="text" name="username" placeholder="Username" required>
+                        <label class="coloring"> Password: </label>  
+                        <input class="password-log" type="password" name="password" placeholder="Password" required>
+                        <label class="coloring"> email: </label>  
+                        <input class="type-log-workout2" type="email" name="email" placeholder="email" required>
+                        <input class="button-log" type="submit" value="Login">
+                    </div>
+
 <div class="footer">
     <div class="footer-row">
         <div class="row3">

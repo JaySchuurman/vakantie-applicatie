@@ -333,7 +333,7 @@ h1{
 
 label{   
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-style: italic;
     font-size: 17px;
 }
@@ -635,4 +635,10 @@ text-align: center;
     font-weight: 700;
     margin-top: 30px;
     text-align: center;
+}
+/* Forms */
+.form-extra{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }

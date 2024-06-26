@@ -29,42 +29,22 @@
 <div class="loggin_block">
     <div class="loggin_2block">
         <h1> Login </h1>
-        <form action='login_succesfull.php'  name='login_succesfull' method="POST">
-            <div class="label_name">
-                <label>Username: </label>
-            </div>
-            <div class="input_username">
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-            <div class="label_password">
-                <label>Password: </label>
-            </div>
-            <div class="input_password">
-            <input type="password" name="password" placeholder="Password" required>
-            </div>
-            <div class="label_Email">
-            <label>Email: </label>
-            </div>
-            <div class="input_Email">
-            <input type="email" name="email" placeholder="email" required>
-            </div>
-            <div class="input_login">
-            <input type="submit" value="LOGIN">
-            </div>
-        </form>
+        <div class="login-form">
+    <form class="form-extra" action='login_logic.php' name='login_logic' method="post">
+    <label class="coloring"> Username: </label>  
+    <input class="username-log" type="text" name="username" placeholder="Username" required>
+    <label class="coloring"> Password: </label>  
+    <input class="password-log" type="password" name="password" placeholder="Password" required>
+    <label class="coloring"> email: </label>  
+    <input class="type-log-workout2" type="email" name="email" placeholder="email" required>
+    <input class="button-log" type="submit" value="Login">
+</div>
     </div>
 </div>  
 </div>
-<div class="login-form">
-                        <form class="form-extra" action='login_logic.php' name='login_logic' method="post">
-                        <label class="coloring"> Username: </label>  
-                        <input class="username-log" type="text" name="username" placeholder="Username" required>
-                        <label class="coloring"> Password: </label>  
-                        <input class="password-log" type="password" name="password" placeholder="Password" required>
-                        <label class="coloring"> email: </label>  
-                        <input class="type-log-workout2" type="email" name="email" placeholder="email" required>
-                        <input class="button-log" type="submit" value="Login">
-                    </div>
+
+
+
 <div class="footer">
     <div class="footer-row">
         <div class="row3">
