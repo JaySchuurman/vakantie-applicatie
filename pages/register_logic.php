@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 if(empty($_POST['username']) || empty($_POST['password']) || empty($_POST['email']) ) {
     header("Location: login.php");

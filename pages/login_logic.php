@@ -1,74 +1,29 @@
 <?php
-session_start();
+include "conn.php";
 
-if(empty($_POST['username']) || empty($_POST['password']) || empty($_POST['email']) ) {
+if (empty($_POST['username']) || empty($_POST['password'])) {
     header("Location: login.php");
     exit();
 }
- 
+
 $username = $_POST["username"];
-$email = $_POST["email"];
 $password = $_POST["password"];
 
+require_once "conn.php";
 
-    require_once "conn.php";
+$stmt = $connection->prepare("SELECT * FROM users WHERE name = :name AND password = :password");
+$stmt->bindParam(':name', $username, PDO::PARAM_STR);
+$stmt->bindParam(':password', $password, PDO::PARAM_STR);
 
-    $stmt = $connection->prepare("INSERT INTO users (name, password, email)  VALUES(?, ?, ?) ");
-    $stmt->execute([$username, $password, $email]);
+$stmt->execute();
+$user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+if ($user) {
+    $_SESSION['username'] = $username;
+    $_SESSION['user_id'] = $user['id'];
+    header("Location: user-dashboard.php");
+} else {
+    header("Location: login.php?error=invalid_credentials");
+    exit();
+}
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOG OUT SUCCESFULL!</title>
-    <link rel="stylesheet" href="../css/test.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<div class="header">
-        <div class="logo">SKY FLIGHTS</div>
-        <div class="header-row">
-            <div class="home-button">
-                <div class="home-button-text"><a href = "../index.php">HOME<a></div>
-            </div>       
-        </div>
-    </div>
-</div>
-
-<div class="log-out-succesfull-page">
-    <div class="row6">
-        <div class="row7">
-            <div class="log-out-succesfull-container">
-                <div class="log-out-succesfull-text">
-                    <a>You have succesfully been logged in.</a>
-                    <a>Thank you for using SKY FLIGHTS!</a> 
-                    <a>Use the HOME button to go back HOME</a>
-                </div>  
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="footer">
-    <div class="footer-row">
-        <div class="row3">
-            <div class="copyright">© 2024 SKYFLIGHTS</div>
-            <div class="social-icons">
-            <div class="socials1"></div>
-            <div class="socials2"></div>
-            <div class="socials3"></div>
-            </div>
-        </div>
-    </div>
-</div>  
-</body>
-</html>

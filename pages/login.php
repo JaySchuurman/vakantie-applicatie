@@ -35,8 +35,6 @@
     <input class="username-log" type="text" name="username" placeholder="Username" required>
     <label class="coloring"> Password: </label>  
     <input class="password-log" type="password" name="password" placeholder="Password" required>
-    <label class="coloring"> email: </label>  
-    <input class="type-log-workout2" type="email" name="email" placeholder="email" required>
     <input class="button-log" type="submit" value="Login">
 </div>
     </div>

@@ -13,8 +13,8 @@ $options = [
 ];
 try {
     $connection = new PDO($dsn, $user, $pass, $options);
-    echo "Connected to database";
-}   catch (\PDOException $e) {
+    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}   catch (PDOException $e) {
     echo "Connection failed" . $e->getMessage();
 }
 ?>

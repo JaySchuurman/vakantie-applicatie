@@ -28,33 +28,7 @@
 <div class="loggin_block2">
     <div class="loggin_2block2">
         <h1> Register </h1>
-        <form action='register_succesfull.php'  name='register_succesfull' method="POST">
-            <div class="label_name2">
-                <label>Username: </label>
-            </div>
-            <div class="input_username2">
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-            <div class="label_password2">
-                <label>Password: </label>
-            </div>
-            <div class="input_password2">
-            <input type="password" name="password" placeholder="Password" required>
-            </div>
-            <div class="label_Email2">
-            <label>Email: </label>
-            </div>
-            <div class="input_Email2">
-            <input type="email" name="email" placeholder="email" required>
-            </div>
-            <div class="input_register">
-            <input type="submit" value="REGISTER">
-            </div>
-        </form>
-    </div>
-</div>   
-
-<div class="register-form">
+        <div class="register-form">
                         <form class="form-extra" action='register_logic.php' name='register_logic' method="post">
                         <label class="coloring"> Username: </label>  
                         <input class="username-log" type="text" name="username" placeholder="Username" required>
@@ -64,6 +38,10 @@
                         <input class="type-log-workout2" type="email" name="email" placeholder="email" required>
                         <input class="button-log" type="submit" value="Login">
                     </div>
+    </div>
+</div>   
+
+
 
 <div class="footer">
     <div class="footer-row">
